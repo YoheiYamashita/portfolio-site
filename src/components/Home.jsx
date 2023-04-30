@@ -10,7 +10,7 @@ const Home = () => {
     <div css={home}>
       <p css={p}>YOHEIのポートフォリオサイトです</p>
       <img src={laptop} alt="picture" srcset="" css={logo} height="300px" width="700px"/>
-      
+      <div>テスト1</div>
 
     </div>
   )
