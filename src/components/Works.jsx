@@ -36,10 +36,13 @@ margin:auto;
 `
 const picWork1 =css`
     margin:auto;
+    max-width:100%;
+max-height: 100%;
+
 `
 
 const h1 =css`
-    margin:50px auto 10px;
+    margin:100px auto 30px;
     border-bottom: #1919199f solid;
 
 `

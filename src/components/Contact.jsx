@@ -46,11 +46,11 @@ const Contact = () => {
 
 
     <form ref={nameRef} onSubmit={sendEmail} css={form}>
-      <label for="name">名前</label>
+      <label for="name" css={contTitle}>名前</label>
       <input type="text" name="name" value={value} />
-      <label for="email">メールアドレス</label>
+      <label for="email"css={contTitle}>メールアドレス</label>
       <input type="email" name="from_email" value={value} />
-      <label for="message">本文</label>
+      <label for="message"css={contTitle}>本文</label>
       <textarea name="message" value={value} css={messageInput}/>
       <div css={submitArea}>
       <input type="submit" value="送信" css={submit} />
@@ -79,21 +79,39 @@ display:flex;
 flex-direction:column;
 width:300px;
 justify-content:center;
-margin:auto;
+margin:40px auto;
+max-width:100%;
+max-height: 100%;
+
 `
 
 const messageInput = css`
 height:50px;
 margin-bottom:20px;
 /* margin:auto; */
+resize:none;
 `
 const submitArea = css`
     text-align:center;
     margin:auto;
+    max-width:100%;
+max-height: 100%;
+
 `
 
 const submit = css`
     width:100px;
     text-align: center;
+    background-color:white;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1,1.1);
+        background-color:#0c0c0c9f;
+        color:white;
+    }
+`
+
+const contTitle=css`
+    padding:15px 0 5px 0;
 `
 export default Contact

@@ -8,9 +8,10 @@ import laptop from './image/laptop.jpg';
 const Home = () => {
   return (
     <div css={home}>
+      
       <p css={p}>YOHEIのポートフォリオサイトです</p>
-      <img src={laptop} alt="picture" srcset="" css={logo} height="300px" width="700px"/>
-      <div>テスト1</div>
+      <img src={laptop} alt="picture" srcset="" css={logo}  />
+
 
     </div>
   )
@@ -19,12 +20,14 @@ const Home = () => {
 const home = css`
 display:flex;
 flex-direction:column;
-justify-content:space-around;
+justify-content:center;
+margin-top:100px;
 
 `
 
 const p =css`
   margin:auto;
+  padding-bottom:20px;
 `
 
 const logo =css`
@@ -34,6 +37,10 @@ margin-left: auto; */
 
 /* display:block; */
 margin:auto;
+width:700px;
+height:300px;
+max-width:100%;
+max-height: 100%;
 `
 
 

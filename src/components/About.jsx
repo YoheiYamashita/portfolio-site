@@ -33,16 +33,21 @@ const h1 = css`
     border-bottom: #1919199f solid;
 `
 const p = css`
-    margin : 100px auto 5px;
+    margin : 40px auto 5px;
 `
 
 const brainPic=css`
     margin:auto;
+    max-width:100%;
+max-height: 100%;
+
 
 `
 
 const parmPic=css`
     margin:auto;
+    max-width:100%;
+max-height: 100%;
 
 `
 export default About
