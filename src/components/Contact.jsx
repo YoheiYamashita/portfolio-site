@@ -53,7 +53,7 @@ const Contact = () => {
       <label for="message"css={contTitle}>本文</label>
       <textarea name="message" value={value} css={messageInput}/>
       <div css={submitArea}>
-      <input type="submit" value="送信" css={submit} />
+      <button css={submit} type="submit" >送信</button>
       </div>
     </form>
 
