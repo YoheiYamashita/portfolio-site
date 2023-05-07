@@ -104,12 +104,12 @@ const submit = css`
     text-align: center;
     background-color:white;
     cursor: pointer;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none;
     &:hover{
         transform: scale(1.1,1.1);
         background-color:#0c0c0c9f;
         color:white;
-    }
+    } */
 `
 
 const contTitle=css`
