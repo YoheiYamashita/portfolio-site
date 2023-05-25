@@ -22,8 +22,7 @@ const Contact = () => {
     // }
     const sendEmail=(e)=>{
         e.preventDefault();
-
-        
+       
         emailjs.sendForm('service_973kswm', 'template_5bj0kh1', nameRef.current, 'rYrIwGzHVNa3t6g5d')
         .then((result) => {
             console.log(result.text);
@@ -102,10 +101,12 @@ max-height: 100%;
 const submit = css`
     width:100px;
     text-align: center;
-    background-color:white;
+    background-color: #fdf6e9;
     cursor: pointer;
-    /* -webkit-appearance: none;
-    &:hover{
+    color:black;
+    border:1px solid  #14120e;
+    border-radius:5% / 20%
+    /* &:hover{
         transform: scale(1.1,1.1);
         background-color:#0c0c0c9f;
         color:white;

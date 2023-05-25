@@ -22,7 +22,7 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 margin-top:100px;
-
+ 
 `
 
 const p =css`
