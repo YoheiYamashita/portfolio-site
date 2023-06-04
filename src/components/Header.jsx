@@ -13,7 +13,6 @@ const macondoSwashCaps =css`
 @import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps');`
 
 
-
 const Header = () => {
   
 const breakPoint = 830;
