@@ -30,7 +30,6 @@ justify-content:space-around;
 align-items:end;
 max-width:500px;
 
-
 @media  screen and (max-width:${breakPoint}px){
   
     position: fixed;  
