@@ -159,7 +159,4 @@ font-family:Verdana		;
 }
 
 
-
-
-
 export default Header
