@@ -1,0 +1,35 @@
+  /* @import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Roboto&display=swap');
+
+.headerList{
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo{
+  list-style: none;
+  font-size: 30px;
+  margin-left: 50px;
+}
+  .menu{
+  font-size: 20px;
+  font-family: 'Macondo Swash Caps';
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+  list-style: none;
+  margin-left: 150px;
+}
+
+.header{
+  background-color: rgba(220, 191, 154, 0.755);
+  position: sticky;
+  /* position: fixed; */
+  /* top:0;
+  width: 100% ;
+
+}
+
+p{
+  margin-top: 500px;
+} */ 
