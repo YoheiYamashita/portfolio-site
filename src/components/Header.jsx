@@ -61,7 +61,6 @@ max-width:500px;
 ;
 `
 
-
 const navCloseBtn=css`
   visibility:hidden;
   opacity: 0;
