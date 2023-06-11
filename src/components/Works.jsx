@@ -4,18 +4,27 @@
 
 
 import React from 'react'
-import Work1 from './image/work1.png'
+import comingsoon from './image/comingsoon.png'
+import todoList from './image/todoList.png'
 
 const Works = () => {
   return (
     <div css={works}>
         <h1 css={h1}>Works</h1>
-        <div css={work1}>
-            <img src={Work1} alt="picture" width="300" css={picWork1}/>
-        <h2 css={h2}>現在作成中</h2>
-        <p css={p}>現在作成中</p>
-        </div>
 
+        <div css={workList}>
+            <a href="https://yoheiyamashita.github.io/todolist-react-portfolio/"css={work1}>
+                <img src={todoList} alt="picture" width="300" css={picWork1}/>
+            <h2 css={h2}>Todoリスト</h2>
+            <p css={p}>Reactで作成しました</p>
+            </a>
+
+            <div css={work1}>
+                <img src={comingsoon} alt="picture" width="300" css={picWork1}/>
+            <h2 css={h2}>現在作成中</h2>
+            <p css={p}>現在作成中</p>
+            </div>
+        </div>
     </div>
   )
 }
@@ -24,6 +33,13 @@ const  works = css`
     display:flex;
     justify-content:center;
     flex-direction: column;
+`
+
+
+const  workList = css`
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
 `
 
 

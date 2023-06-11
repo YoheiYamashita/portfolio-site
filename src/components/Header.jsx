@@ -138,6 +138,7 @@ font-family:Verdana		;
               <li className='menu'><Link to="home" smooth={true} duration={700} offset={-70} onClick={showNavbar}>Home</Link></li>
               <li  className='menu'><Link to="about" smooth={true} duration={700}onClick={showNavbar}>About</Link></li>
               <li  className='menu'><Link to="works" smooth={true} duration={700} onClick={showNavbar}>Works</Link></li>
+              <li className="menu">Skills</li>
               <li  className='menu'><Link to="contact" smooth={true} duration={700} onClick={showNavbar}>Contact</Link></li>
                         
             </div>

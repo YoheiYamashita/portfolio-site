@@ -41,7 +41,7 @@ const Contact = () => {
     
     
     <div css={contact}>
-            <h1 css={h1}>お問い合わせ</h1>
+            <h1 css={h1}>Contact</h1>
 
 
     <form ref={nameRef} onSubmit={sendEmail} css={form}>
