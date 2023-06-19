@@ -2,6 +2,7 @@
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://YoheiYamashita.github.io/portfolio-site/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.10.6",
@@ -15,6 +16,7 @@
     "react-icons": "^4.8.0",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
+    "runes2": "^1.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -45,6 +47,5 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "homepage": "https://YoheiYamashita.github.io/portfolio-site/"
+  }
 }
